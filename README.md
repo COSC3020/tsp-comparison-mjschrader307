@@ -74,12 +74,9 @@ Local Search is obviously scaling a lot more slowly than H-K, but I am going to 
 Weirdly enough, it took around 200 cities to break a second in runtime.
 
 I used a Least-Squares cubic curve fitting technique also developed last semester to approximate the input size needed to make Local Search take an hour. I did a cubic approximation, because I know the runtime complexity is cubic in the number of vertices. The function I got with the above data came out as:
-$$
-T(n) \approx (1.6917 \cdot 10^{-7})n^3 - (1.0726 \cdot 10^{-5})n^2 + (5.6465 \cdot 10^{-4})n - 0.0083
-$$
-$$
-T(n) = 3600 \rightarrow n \approx 2792 \text{ cities}
-$$
+$T(n) \approx (1.6917 \cdot 10^{-7})n^3 - (1.0726 \cdot 10^{-5})n^2 + (5.6465 \cdot 10^{-4})n - 0.0083$
+
+$T(n) = 3600 \rightarrow n \approx 2792 \text{ cities}$
 
 ### Conclusion
 
