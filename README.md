@@ -43,7 +43,7 @@ I used an exponential fitting algorithm I developed last semester to fit a curve
 | 20 | 5.938734 |
 | 25 | 287.409284 |
 
-The resulting exponential approximation curve for this data is $T(n) \approx (1.57 \times 10^{-6}) \cdot e^{0.75n}$. Intersecting this curve with $y = 3600$ seconds gives an $n$ value of about 29. I however, did some research and came to the conclusion that with my memory constraints, I can only realistically get up to $n = 26$, unless introducing some counteractive measures in the function implementation. 
+The resulting exponential approximation curve for this data is $T(n) \approx (1.57 \times 10^{-6}) \cdot e^{0.75n}$. Intersecting this curve with $y = 3600$ seconds (1 hour) gives an $n$ value of about 29. I however, did some research and came to the conclusion that with my memory constraints, I can only realistically get up to $n = 26$, unless introducing some counteractive measures in the function implementation. 
 
 After running the code for $n = 26$, I got a duration of 221.282872 seconds, which is less than what I got for $n = 25$, which is really strange. I'm not sure what happened there, but the approximation curve says it should take roughly 462 seconds.
 
