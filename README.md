@@ -27,7 +27,7 @@ to this markdown file.
 
 ## Answer 
 
-I regrettably think waited a little too long to do this exercise and do it completely right. I was worried about attempting to run a C++ program for the Held-Karp algorithm (the implementation of which I found online and changed slightly) for a large size, because I know the runtime complexity is $O(2^n \cdot n^2)$, so it increases ridiculously fast. I was also concerned about memory space, because my laptop only has 32 GB of memory, and I logged into one of the EECS Hive machines, which have about 29 GiB of available memory. 
+I regrettably waited a little too long to do this exercise and do it completely right. I was worried about attempting to run a C++ program for the Held-Karp algorithm (the implementation of which I found online and changed slightly) for a large size, because I know the runtime complexity is $O(2^n \cdot n^2)$, so it increases ridiculously fast. I was also concerned about memory space, because my laptop only has 32 GB of memory, and I logged into one of the EECS Hive machines, which have about 29 GiB of available memory. 
 
 ### Held-Karp
 
@@ -86,3 +86,14 @@ $$
 Using these estimation techniques, the computation time for Local Search clearly scales a lot slower than Held-Karp, and that is also clear just by looking at the theoretical runtime complexities ($O(2^n \cdot n^2)$ vs $O(n^3)$ with n being number of vertices or cities).
 
 As I understand it, this also makes sense, because Held-Karp is an exact solution, and for a problem like the TSP, that is generally going to have a crazy runtime complexity. On the flip side, Local Search is not exact -- it is a heuristic that doesn't always return optimal solutions. 
+
+---
+
+Sources:
+- computergeek.com for C++ algorithm implementations
+- ChatGPT for some minor assistance in matplotlib plotting and data cleaning as I have never done that before
+
+**I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.**
